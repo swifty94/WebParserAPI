@@ -18,7 +18,10 @@ Usage:
 
 Examples:
 ---
-![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/banner.png)  
+![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/banner.png)
+
 ![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/checkpage.png)
+
 ![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/getpageinfo.png)
+
 ![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/getall.png)
