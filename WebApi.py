@@ -20,40 +20,25 @@ def home():
 <!DOCTYPE html>
 <html>
 <title>WebAPI</title>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>  
-	<h1>Simple API to check website details</h1>
-	<br>
+	<h1>Simple API to check website details</h1>	
 	<p>	- get amount of HTML tags used on the page </p>
-	<br>
 	<p> - where the domain was registered? </p>
-	<br>
 	<p> - get IP address of the domain </p>	
-	<br>
-	<p> - who is the owner of the IP </p>
-	<br>
+	<p> - who is the owner of the IP? </p>
 	<p> - webserver type / programming language </p>
-	<br>
 	<h1> Usage:</h1>
-	<br>
-	<p>http://$YOUR_IP_OR_DOMAIN/api/v1/checkpage?url=$URL_TO_CHECK_HERE</p>
+	<p>1) http://$YOUR_IP_OR_DOMAIN:8080/api/v1/checkpage?url=$URL_TO_CHECK_HERE</p>
 	<p>Upon request you'll receive an ID to use in getpageinfo method</p>
-	<br>
-	<p>http://$YOUR_IP_OR_DOMAIN/api/v1/getpageinfo?id=$ID</p>
-	<br>
-	<p>http://$YOUR_IP_OR_DOMAIN/api/v1/getall</p>
+	<p>2) http://$YOUR_IP_OR_DOMAIN:8080/api/v1/getpageinfo?id=$ID</p>
+	<p>3) http://$YOUR_IP_OR_DOMAIN:8080/api/v1/getall</p>
 	<p>Upon request you'll receive the list of IDs to use in getpageinfo method</p>
-	<br>
-	<h1> Example:</h1>
-	<br>
-	<p>http://127.0.0.1/api/v1/checkpage?url=https://www.w3schools.com/python/default.asp</p>
-	<br>
-	<p>http://127.0.0.1/api/v1/getpageinfo?id=12</p>
-	<br>
-	<p>http://127.0.0.1/api/v1/getall</p>
-	<br>
+	<h1> Example:</h1>	
+	<p>1) http://127.0.0.1:8080/api/v1/checkpage?url=https://www.w3schools.com/python/default.asp</p>	
+	<p>2) http://127.0.0.1:8080/api/v1/getpageinfo?id=12</p>
+	<p>3) http://127.0.0.1:8080/api/v1/getall</p>
 </body>
 </html>
     """
