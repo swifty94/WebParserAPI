@@ -85,6 +85,10 @@ def getPageInfo():
         return jsonify(outcome)
     except Exception as e:
         logging.exception(f"Exception: {e} \n Full stack trace:", exc_info=2)
+        outcome = {
+            "Result": "FAIL. Please check application.log for details"
+        }
+        return jsonify(outcome)
 
 @app.route('/api/v1/getall', methods=['GET'])
 def getAll():
@@ -94,6 +98,10 @@ def getAll():
         return jsonify(outcome)
     except Exception as e:
         logging.exception(f"Exception: {e} \n Full stack trace:", exc_info=2)
+        outcome = {
+            "Result": "FAIL. Please check application.log for details"
+        }
+        return jsonify(outcome)
 
 if __name__ == "__main__":
     serve(app, host='0.0.0.0', port='8080')

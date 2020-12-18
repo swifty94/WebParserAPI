@@ -63,9 +63,7 @@ class WebProcessor():
                 techstack['Web-server'] = webserver
             if 'x-powered-by' in header:
                 program_lang = header['x-powered-by']
-                techstack['Programming language'] = program_lang
-            else:
-                pass
+                techstack['Programming language'] = program_lang            
             return techstack
         except Exception as e:
             logging.exception(f"Exception: {e} \n Full stack trace:", exc_info=2)
