@@ -18,7 +18,7 @@ Usage:
 
 Examples:
 ---
-![](https://raw.githubusercontent.com/swifty94/jarvis/WebParserAPI/img/banner.png)  
-![](https://raw.githubusercontent.com/swifty94/jarvis/WebParserAPI/img/checkpage.png)
-![](https://raw.githubusercontent.com/swifty94/jarvis/WebParserAPI/img/getpageinfo.png)
-![](https://raw.githubusercontent.com/swifty94/jarvis/WebParserAPI/img/getall.png)
+![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/banner.png)  
+![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/checkpage.png)
+![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/getpageinfo.png)
+![](https://raw.githubusercontent.com/swifty94/WebParserAPI/master/img/getall.png)
